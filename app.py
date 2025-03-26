@@ -5,7 +5,7 @@ from PIL import Image
 # Configure Gemini API
 GEMINI_API_KEY = "AIzaSyBw9qlfSD4LBiZpAQEf0jaUCd70Z_fnkB8"
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
 
 # Streamlit UI
 st.title("📝 OCR with Gemini (Markdown & Plain Text)")
